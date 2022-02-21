@@ -1,0 +1,14 @@
+<svg id="Group_181" data-name="Group 181" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100.134" height="100.134" viewBox="0 0 100.134 100.134">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="zap_1_Background_Mask_" data-name="zap 1 (Background/Mask)" width="45.06" height="45.06" fill="none"/>
+    </clipPath>
+  </defs>
+  <circle id="Ellipse_10" data-name="Ellipse 10" cx="50.067" cy="50.067" r="50.067" fill="#fae2da" opacity="0.4"/>
+  <g id="zap_1" data-name="zap 1" transform="translate(27.537 27.537)">
+    <rect id="zap_1_Background_Mask_2" data-name="zap 1 (Background/Mask)" width="45.06" height="45.06" fill="none"/>
+    <g id="zap_1-2" data-name="zap 1" clip-path="url(#clip-path)">
+      <path id="Vector" d="M0,22.53H16.9L15.02,37.55,33.8,15.02H16.9L18.775,0Z" transform="translate(5.633 3.755)" fill="none" stroke="#ff794d" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="0 0"/>
+    </g>
+  </g>
+</svg>

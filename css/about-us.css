@@ -1,0 +1,105 @@
+/* We know Items */
+a.signup-btn{
+    background: #000;
+    color: #fff;
+}
+
+.we-know-item {
+    position: relative;
+    background: #EBF5FF;
+    color: #000;
+    border-radius: 20px;
+    min-height: 350px;
+  }
+
+  .we-know-item p{
+      font-weight: 100;
+      font-size: 15px;
+  }
+
+  .we-know-item h5{
+      font-weight: 700;
+  }
+
+  a.getstarted{
+      position: absolute;
+      bottom: 50px;
+      font-weight: 600;
+  }
+
+  .we-know-item:hover{
+    background: #015FF9;
+    color: #fff;
+    transition: 0.5s;
+  }
+
+  /* leadership */
+
+  .leader-desc{
+    width: 80%;
+  }
+
+  .leaders h5{
+      font-size: 18px;
+      margin: 10px 0;
+      font-weight: 700;
+  }
+
+  .leaders p{
+    font-size: 12px;
+    margin-top: -5px
+}
+
+  /* join */
+
+  .join{
+    width: 60%;
+  }
+
+  .join p {
+    opacity: 0.7;
+    margin: 50px 0;
+  }
+
+  .join-button{
+    background: #FDC805;
+    color: #000;
+    font-weight: 500
+  }
+
+  /*RESPONSIVE*/
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1279px) {	
+
+}
+
+@media screen and (max-width: 991px) {
+    .we-know-item {
+        min-height: 500px;
+    }
+
+    .join {
+        width: 100%;
+    }
+
+    .join h1{
+        font-size: 35px;
+    }
+
+    .leader-desc{
+        width: 100%;
+      }
+}
+
+@media screen and (max-width: 767px) {
+    .join {
+        width: 100%;
+    }
+
+    .leader-desc{
+        width: 100%;
+      }
+}

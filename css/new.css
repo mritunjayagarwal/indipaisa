@@ -1,0 +1,181 @@
+
+a.signup-btn {
+    background: #000;
+    color: #fff;
+}
+
+.header-bottom p{
+    color: #262729
+}
+
+.carousel-content { 
+    position: absolute;
+    bottom: 10%;
+    width: 60%;
+}
+
+.carousel-content p {
+    margin-bottom: 40px;
+    width: 60%;
+}
+
+.carousel-content h1{
+    font-size: 35px;
+}
+
+.carousel-content a {
+    background: transparent;
+    border: 2px solid #FDC805;
+    padding: 10px 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.carousel-content a:hover {
+    background: #000;
+    transition: 0.7s;
+}
+
+/* info section */
+
+.info-head span {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.info-cards .card {
+    border: unset;
+    min-height: 100%;
+}
+
+.info-cards .card:hover {
+    box-shadow: 5px 0 10px rgba(220,220,220,0.5);
+    transition: 0.2s;
+}
+
+.info-cards .card-text {
+    font-size: 12px;
+    margin: 20px 0 100px 0;
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+.card-top {
+    overflow: hidden;
+  }
+
+.card-top .zoom-img {
+transition: all 0.6s;
+}
+
+.card-top:hover .zoom-img {
+    transform: scale(1.15);
+  }
+
+.c-footer .watch {
+    border: 3px solid #FFC232;
+    text-decoration: unset;
+    color: #000;
+}
+
+.info-menu {
+    border: 1px solid #C5CFDC;
+}
+
+.info-date {
+    color: #FF8B61;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.info-share {
+    font-size: 15px;
+    padding-top: 4px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.social-icon{
+    font-size: 20px;
+    color: #000;
+}
+
+/* subscribe section */
+
+.subscribe {
+    background: #FDC805;
+}
+
+.sub-main {
+    width: 50%;
+}
+
+.sub-main p {
+    font-size: 14px;
+    color: #262729;
+}
+
+/* Connect section */
+
+.whatsapp{
+    width: 100%;
+    background: #25D366;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.messenger{
+    width: 100%;
+    background: #007FFF;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+/*RESPONSIVE*/
+@media screen and (max-width: 1280px) {
+	
+}
+
+@media screen and (max-width: 1279px) {	
+    
+}
+
+@media screen and (max-width: 991px) {
+    .sub-main {
+        width: 80%
+    }
+
+    .carousel-content {
+        width: 90%;
+    }
+
+    .carousel-content h1{
+        font-size: 30px;
+        line-height: 50px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .sub-main{
+        width: 100%;
+    }
+
+    .carousel-content {
+        width: 90%;
+    }
+
+    .carousel-content p {
+        width: 90%;
+    }
+}
+

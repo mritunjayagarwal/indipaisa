@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130.1" height="68" viewBox="0 0 130.1 68">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.09" y1="1.405" x2="0.806" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffb100"/>
+      <stop offset="1" stop-color="#f0a619"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_44659" data-name="Group 44659" transform="translate(-61.9 -7.626)">
+    <text id="pay" transform="translate(105 57.626)" fill="#011e40" font-size="50" font-family="Avenir-Black, Avenir" font-weight="800"><tspan x="0" y="0">pay</tspan></text>
+    <path id="Path_35" data-name="Path 35" d="M795.816,1847.943s-7.226,2.232-8.984-1.074-3.511-10.153-3.511-10.153l8.333-1.516Z" transform="translate(-695.654 -1773.054)" fill="#ffa800"/>
+    <g id="Rectangle_7" data-name="Rectangle 7" transform="translate(61.9 26.922)" fill="none" stroke="#ffa800" stroke-width="8">
+      <rect width="38.261" height="38.261" rx="12" stroke="none"/>
+      <rect x="4" y="4" width="30.261" height="30.261" rx="8" fill="none"/>
+    </g>
+    <path id="Union_6" data-name="Union 6" d="M-14,63.821l8.614-8.629V49.451A1.609,1.609,0,0,1-5.3,48.93l-1.057-1.076H-9.082a.879.879,0,0,1-.877-.879v-3.2a.879.879,0,0,1,.877-.879h3.193a.879.879,0,0,1,.877.879v2.786l1.245,1.266H2.168l2.976-2.981V41.879A.879.879,0,0,1,6.021,41H9.214a.879.879,0,0,1,.878.879v3.2a.879.879,0,0,1-.878.878H6.673l-3,3.009a1.608,1.608,0,0,1,.075.487v5.9a1.615,1.615,0,0,1-.026.286l.855.87H6.989a.808.808,0,0,1,.806.808v2.941a.808.808,0,0,1-.806.808H4.053a.808.808,0,0,1-.807-.808v-2.44l-.852-.866a1.607,1.607,0,0,1-.269.022H-3.1l-8.867,8.882ZM4.31,60H6.732V57.577H4.31Zm-7.562-5.165H1.61V49.968H-3.252ZM-8.8,46.7h2.634V44.057H-8.8ZM6.3,44.8H8.935V42.159H6.3Z" transform="translate(107.543 -31.098)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

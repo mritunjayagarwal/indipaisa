@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41.373" height="41.373" viewBox="0 0 41.373 41.373">
+  <g id="Play" transform="translate(0 0.09)">
+    <g id="Ellipse_20" data-name="Ellipse 20" transform="translate(0 -0.09)" stroke="#ffc232" stroke-width="2" stroke-dasharray="0 0">
+      <circle cx="20.687" cy="20.687" r="20.687" stroke="none"/>
+      <circle cx="20.687" cy="20.687" r="19.687" fill="none"/>
+    </g>
+    <g id="triangle-right_1" data-name="triangle-right 1" transform="translate(14.699 11.91)">
+      <rect id="triangle-right_1_Background_" data-name="triangle-right 1 (Background)" width="14.154" height="16.781" fill="none"/>
+      <g id="Group" transform="translate(2.948 1.049)">
+        <path id="Vector" d="M.459.059A.265.265,0,0,0,.309,0,.258.258,0,0,0,.156.041.324.324,0,0,0,.042.17.4.4,0,0,0,0,.35V14.334a.4.4,0,0,0,.042.18.324.324,0,0,0,.114.129.258.258,0,0,0,.153.041.265.265,0,0,0,.149-.058L9.3,7.633a.336.336,0,0,0,.1-.126.407.407,0,0,0,0-.33.336.336,0,0,0-.1-.126Z" fill="#fdc805"/>
+      </g>
+    </g>
+  </g>
+</svg>

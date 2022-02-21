@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62" height="62" viewBox="0 0 62 62">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5444de"/>
+      <stop offset="1" stop-color="#5443e9"/>
+    </radialGradient>
+    <filter id="Rectangle_5967" x="0" y="0" width="62" height="62" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#5443e6" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_48" data-name="Group 48" transform="translate(14.766 15.119)">
+    <g transform="matrix(1, 0, 0, 1, -14.77, -15.12)" filter="url(#Rectangle_5967)">
+      <rect id="Rectangle_5967-2" data-name="Rectangle 5967" width="32" height="32" rx="16" transform="translate(15 15)" fill="url(#radial-gradient)"/>
+    </g>
+    <path id="np_bill_783564_000000" d="M26.306,17.436v1.6h1.385a1.782,1.782,0,0,1,1.78,1.78v7.536a1.783,1.783,0,0,1-1.78,1.78H16.363a1.783,1.783,0,0,1-1.781-1.78V20.812a1.782,1.782,0,0,1,1.781-1.78h1.383V15.785a1.269,1.269,0,0,1,1.322-1.2h6.793v0a1.422,1.422,0,0,1,1.063.447,2.967,2.967,0,0,1,.576,1.989l-.025.419Zm0-1.763v.872H26.6A1.736,1.736,0,0,0,26.306,15.674Zm-.89,1.183v3.851h-6.78V15.785c0-.169.2-.312.432-.312h6.349Zm.89,3.851v-.786h1.385a.891.891,0,0,1,.89.891v7.536a.891.891,0,0,1-.89.89H16.363a.891.891,0,0,1-.891-.89V20.812a.892.892,0,0,1,.891-.891h1.383v.786h-.415v.89h9.4v-.89Zm-4.969-3.075H24.11v-.89H21.338Zm0,1.853H24.11V18.6H21.338Zm-1.59-1.853h.867v-.89h-.867Zm0,1.853h.867V18.6h-.867Zm6.233,8.182a.8.8,0,1,1,.8-.8A.8.8,0,0,1,25.98,27.668Zm-8.649-.357h4.7V26.42h-4.7Z" transform="translate(-5.648 -6.641)" fill="#fff"/>
+  </g>
+</svg>

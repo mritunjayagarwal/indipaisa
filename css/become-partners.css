@@ -1,0 +1,245 @@
+/* Navbar */
+
+a.signup-btn{
+    color: #fff;
+    background: #000;
+}
+
+/* header */
+
+.header-section{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.header-bottom {
+	position: relative;
+}
+
+.home-banner {
+    padding: 50px 0px;
+}
+.banner-contents h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.banner-contents a.btn {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    padding: 10px 20px;
+    box-shadow: none;
+    border-radius: 0px;
+}
+.banner-contents a.btn:hover {
+    background-color: #000;
+    border: 1px solid #FDC831;
+    color: #fff;
+    transition: 0.3s;
+}
+.banner-contents a.active-btn {
+    background-color: #FDC831;
+    color: #000;
+}
+
+.circle {
+    width: 40px;
+    line-height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+/* benefits */
+
+.benefits-wrap {
+    padding: 100px 0px;
+    border-bottom: 1px dashed rgba(29, 38, 58, 0.1);
+}
+.benefits-contents h3 {
+    font-size: 35px;
+    color: #262729;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.benefits-contents p {
+    font-size: 16px;
+    color: #262729;
+    margin-bottom: 30px;
+}
+.benefits-details {
+    padding: 10px;
+    box-shadow: 0px 34px 50px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+}
+.benefits-details h4 {
+    font-size: 18px;
+    color: #262729;
+    margin-bottom: 10px;
+}
+.benefits-details p {
+    font-size: 13px;
+    color: rgba(29, 38, 58, 0.8);
+    margin-bottom: 0px;
+}
+
+.benefits-card{
+    min-height: 100%;
+    border: 1px solid rgba(29,38,58, .12);
+    border-radius: 10px;
+}
+
+.stories-card{
+    border: 1px solid rgba(29,38,58, .12);
+    border-radius: 10px;
+}
+
+.benefits-card p, .stories-card p{
+    font-size: 12px;
+}
+
+.benefits-main{
+    padding: 150px 0;
+}
+
+.benefits-image{
+    background: url('../img/others/BP1/Ellipse\ 4.svg') no-repeat;
+    background-size: contain;
+    background-position:top;
+}
+
+.benefits-main p {
+    font-size: 13px;
+}
+
+/* Success stories */
+
+/* .bar-chart{
+    display: none;
+} */
+
+.testimonials-info {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    margin: 0 auto; 
+    width: 65%;
+}
+.testimonials-info div {
+    display: block;
+    padding: 5px 10px;
+    background: rgba(255,255,255);
+    border-radius: 5px;
+    font-size: 12px;
+    color: #000;
+    text-decoration: none;
+    min-width: 100%;
+    position: relative;
+    border-radius: 10px;
+}
+
+.testimonials-info p {
+    color: #181818;
+}
+
+.testimonials-info img {
+    max-width: 35px;
+}
+.testimonials-info img.fw-ic {
+    max-width: 33px;
+    position: absolute;
+    right: 20px;
+    top: 25%;
+}
+
+/* How much your eaern */
+
+.howwe-wrap {
+    padding: 100px 0px;
+    border-bottom: 1px dashed rgba(29, 38, 58, 0.1);
+}
+.howwe-contents h3 {
+    font-size: 35px;
+    color: #262729;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.howwe-contents p {
+    font-size: 16px;
+    color: #262729;
+    margin-bottom: 30px;
+}
+.howwe-details {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background: #Fff;
+    box-shadow: 0px 34px 50px rgb(0 0 0 / 15%);
+    border-radius: 10px;
+}
+.howwe-details h4 {
+    font-size: 18px;
+    color: #262729;
+    margin-bottom: 10px;
+}
+.howwe-details p {
+    font-size: 13px;
+    color: rgba(29, 38, 58, 0.8);
+    margin-bottom: 0px;
+}
+
+
+
+.skewed {
+    width: 100%;
+    height: 100%;
+    background:#D6EBE4;
+    z-index: 0;
+    transform: skewY(-1deg);
+    transform-origin: top left;
+  }
+
+/* Connect Section */
+
+.connect-form {
+    background: #fff;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.connect-form label{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.connect-form input{
+    background: #E1ECF0;
+    border: unset;
+    outline: unset;
+    font-size: 12px;
+}
+
+/*RESPONSIVE*/
+
+/* @media screen and (max-width: 1179px) {	
+    .stories-div{
+        height: 1000px;
+    }
+} */
+
+
+@media screen and (max-width: 991px) {
+
+   .connect-form{
+       width: 350px;
+   }
+}
+
+@media screen and (max-width: 767px) {
+}

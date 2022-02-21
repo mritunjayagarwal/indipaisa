@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175" height="64" viewBox="0 0 175 64">
+  <g id="Group_44658" data-name="Group 44658" transform="translate(-277.282 -792)">
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(277.282 792)" fill="#041438" stroke="#fff" stroke-width="2">
+      <rect width="175" height="64" rx="9" stroke="none"/>
+      <rect x="1" y="1" width="173" height="62" rx="8" fill="none"/>
+    </g>
+    <text id="Sign_UP" data-name="Sign UP" transform="translate(327.282 831)" fill="#e8f4fc" font-size="20" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Sign UP</tspan></text>
+  </g>
+</svg>

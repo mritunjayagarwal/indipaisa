@@ -1,0 +1,9 @@
+<svg id="Group_46519" data-name="Group 46519" xmlns="http://www.w3.org/2000/svg" width="20.481" height="20.481" viewBox="0 0 20.481 20.481">
+  <g id="Rectangle" fill="#1787fc" stroke="#1787fc" stroke-width="1" stroke-dasharray="0 0">
+    <rect width="20.481" height="20.481" rx="3" stroke="none"/>
+    <rect x="0.5" y="0.5" width="19.481" height="19.481" rx="2.5" fill="none"/>
+  </g>
+  <g id="check-single" transform="translate(6.468 7.546)">
+    <path id="Path" d="M0,4.312,2.587,6.468,8.624,0" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke-dasharray="0 0"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg id="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100.134" height="100.134" viewBox="0 0 100.134 100.134">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="heart_1_Background_Mask_" data-name="heart 1 (Background/Mask)" width="40.054" height="40.054" fill="none"/>
+    </clipPath>
+  </defs>
+  <circle id="Ellipse_10" data-name="Ellipse 10" cx="50.067" cy="50.067" r="50.067" fill="#d6ebe4" opacity="0.4"/>
+  <g id="heart_1" data-name="heart 1" transform="translate(30.04 31.292)">
+    <rect id="heart_1_Background_Mask_2" data-name="heart 1 (Background/Mask)" width="40.054" height="40.054" fill="none"/>
+    <g id="heart_1-2" data-name="heart 1" clip-path="url(#clip-path)">
+      <path id="Vector" d="M29.217.7A9.179,9.179,0,0,0,19.211,2.69L17.442,4.459,15.673,2.69A9.181,9.181,0,0,0,2.689,15.674l1.769,1.769L17.442,30.427,30.426,17.443,32.2,15.674a9.179,9.179,0,0,0,0-12.984h0A9.179,9.179,0,0,0,29.217.7Z" transform="translate(2.585 5.004)" fill="none" stroke="#20bfa9" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" stroke-dasharray="0 0"/>
+    </g>
+  </g>
+</svg>
