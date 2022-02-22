@@ -29,7 +29,7 @@ section{
 .mainmenu .sub-menu li{ padding: 0px !important;}
 .mainmenu .sub-menu li a { background: none repeat scroll 0 0 #fff;  display: block;  padding: 10px 15px !important;  text-align: left; color: #282828 !important;  text-decoration: none;  transition: all 1s ease-in-out 0s;-webkit-transition: all 1s ease-in-out 0s;-moz-transition: all 1s ease-in-out 0s;
 font-size: 14px; font-weight: normal;border-bottom: none !important;}
-.mainmenu .sub-menu li a:hover { background:#fff !important; border-left:5px solid #FDC831; padding-left:25px; border-bottom: none !important;}
+.mainmenu .sub-menu li a:hover { background:#fff !important; border-left:5px solid #008FB0; padding-left:25px; border-bottom: none !important;}
 
 /*******MAIN MENU*********/
 .mainmenu .navbar {
@@ -62,10 +62,10 @@ font-size: 14px; font-weight: normal;border-bottom: none !important;}
 	text-transform: capitalize;
 }
 .mainmenu nav.navbar .navbar-nav li.nav-item a.active {
-	color: #FDC831;
+	color: #008FB0;
 }
 .mainmenu nav.navbar .navbar-nav li.nav-item a:hover {
-	color: #FDC831;
+	color: #008FB0;
 }
 .header-btns li {
     padding-right: 15px;

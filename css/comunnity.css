@@ -38,7 +38,8 @@ a.signup-btn{
 .user_review {
     height: 100%;
     width: 100%;
-    background: #FDC831 0% 0% no-repeat padding-box;
+    background: #008FB0 0% 0% no-repeat padding-box;
+    color: #fff;
     opacity: 1;
 }
 

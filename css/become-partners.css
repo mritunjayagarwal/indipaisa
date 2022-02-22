@@ -36,13 +36,13 @@ a.signup-btn{
 }
 .banner-contents a.btn:hover {
     background-color: #000;
-    border: 1px solid #FDC831;
+    border: 1px solid #008FB0;
     color: #fff;
     transition: 0.3s;
 }
 .banner-contents a.active-btn {
-    background-color: #FDC831;
-    color: #000;
+    background-color: #008FB0;
+    color: #fff;
 }
 
 .circle {
