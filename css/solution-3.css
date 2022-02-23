@@ -112,17 +112,17 @@ animation-delay: 2s;
 .banner-contents a.btn {
     font-size: 14px;
     font-weight: 600;
-    color: #000;
-    padding: 10px 20px;
+    color: #fff;
+    padding: 15px 20px;
     box-shadow: none;
     border-radius: 0px;
 }
 .banner-contents a.btn:hover {
-    background-color: #FDC831;
+    background-color: #008FB0;
     color: #fff;
 }
 .banner-contents a.active-btn {
-    background-color: #FDC831;
+    background-color: #008FB0;
     color: #fff;
 }
 
@@ -233,7 +233,7 @@ animation-delay: 2s;
     top: 25%;
     left: -100px;
     width: 250px;
-    background: #FDC831
+    background: #008FB0
 }
 
 /* Responsive */
@@ -248,7 +248,7 @@ animation-delay: 2s;
         top: 25%;
         left: -50px;
         width: 250px;
-        background: #FDC831
+        background: #008FB0
     }
 
     .point-contents {
