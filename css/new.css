@@ -32,7 +32,7 @@ a.signup-btn {
 }
 
 .carousel-content a:hover {
-    background: #000;
+    background: #008FB0;
     transition: 0.7s;
 }
 
@@ -105,6 +105,7 @@ transition: all 0.6s;
 
 .subscribe {
     background: #008FB0;
+    color: #fff;
 }
 
 .sub-main {
@@ -113,7 +114,7 @@ transition: all 0.6s;
 
 .sub-main p {
     font-size: 14px;
-    color: #262729;
+    color: #eee;
 }
 
 /* Connect section */
