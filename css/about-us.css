@@ -15,7 +15,7 @@ a.signup-btn{
     background: #EBF5FF;
     color: #000;
     border-radius: 20px;
-    min-height: 350px;
+    min-height: 250px;
   }
 
   .we-know-item p{
@@ -84,7 +84,7 @@ a.signup-btn{
 
 @media screen and (max-width: 991px) {
     .we-know-item {
-        min-height: 500px;
+        min-height: 350px;
     }
 
     .join {
@@ -108,4 +108,8 @@ a.signup-btn{
     .leader-desc{
         width: 100%;
       }
+
+    .we-know-item {
+      min-height: unset;
+    }
 }
