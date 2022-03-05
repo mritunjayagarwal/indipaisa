@@ -351,7 +351,7 @@ footer {
       outline: none !important;
     }
     .header-section {        
-        background-image: none
+        background-image: none;
         background: #c4e1fe; /* Old browsers */
         background: -moz-linear-gradient(top,  #c4e1fe 0%, #edf9f9 100%); /* FF3.6-15 */
         background: -webkit-linear-gradient(top,  #c4e1fe 0%,#edf9f9 100%); /* Chrome10-25,Safari5.1-6 */

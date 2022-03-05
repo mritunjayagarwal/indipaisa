@@ -4,6 +4,11 @@
 .text-center img {
 	display: inline-block;
 }
+
+img {
+    border-radius: 10px;
+}
+
 .owl-theme .owl-dots .owl-dot {
 	outline: none !important;
 }
@@ -389,7 +394,7 @@ a.login-btn {
     font-weight: 600;
 }
 .partners-section {
-    padding: 100px 0px;
+    padding: 0px;
 }
 .partners-heading h3 {
     font-size: 25px;
@@ -603,13 +608,12 @@ footer {
       outline: none !important;
     }
     .header-section {        
-        background-image: none
+        background-image: none;
         background: #c4e1fe; /* Old browsers */
         background: -moz-linear-gradient(top,  #c4e1fe 0%, #edf9f9 100%); /* FF3.6-15 */
         background: -webkit-linear-gradient(top,  #c4e1fe 0%,#edf9f9 100%); /* Chrome10-25,Safari5.1-6 */
         background: linear-gradient(to bottom,  #c4e1fe 0%,#edf9f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4e1fe', endColorstr='#edf9f9',GradientType=0 ); /* IE6-9 */
-
     }
 	.header-top .navbar-brand {
 		max-width: 45%;
