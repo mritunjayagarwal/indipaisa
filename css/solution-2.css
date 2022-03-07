@@ -379,7 +379,8 @@ animation-delay: 2s;
     }
 
     .cust-connect-img{
-        width: 80%;
+        margin-top: 30px;
+        width: 100%;
     }
 }
 
