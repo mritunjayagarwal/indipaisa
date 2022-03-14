@@ -1,6 +1,7 @@
 html{
     max-width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 a.signup-btn{
@@ -95,7 +96,7 @@ animation-delay: 2s;
 .banner-contents a.btn {
     font-size: 14px;
     font-weight: 600;
-    color: #fff;
+    color: #000;
     padding: 15px 20px;
     box-shadow: none;
     border-radius: 0px;
