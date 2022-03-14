@@ -207,22 +207,34 @@ a.signup-btn{
 
 /* Connect Section */
 
-.connect-form {
-    background: #fff;
-    width: 400px;
-    border-radius: 10px;
+.contact-section {
+    padding: 100px 0px;
 }
-
-.connect-form label{
+.contact-forms h3 {
+    font-size: 30px;
+    color: #1D263A;
     font-weight: 700;
-    font-size: 15px;
+    margin-bottom: 30px;
 }
-
-.connect-form input{
-    background: #E1ECF0;
-    border: unset;
-    outline: unset;
-    font-size: 12px;
+.form-fields {
+    margin-bottom: 20px;
+}
+.form-fields .form-control {
+    padding: 8px 10px;
+    font-size: 14px;
+    color: rgba(38, 39, 41, 0.7);
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    box-shadow: none;
+    resize: none;
+}
+.contact-forms .form-btn button {
+    background: #008fb0;
+    color: #fff;
+    box-shadow: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 /*RESPONSIVE*/
