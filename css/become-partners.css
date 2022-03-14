@@ -1,5 +1,9 @@
 /* Navbar */
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 a.signup-btn{
     color: #fff;
     background: #000;

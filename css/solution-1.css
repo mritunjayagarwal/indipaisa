@@ -186,8 +186,6 @@ animation-delay: 2s;
     width: 50px;
 }
 
-/* connect section *?
-
 /* Connect Section */
 
 .connect-form {
@@ -221,9 +219,6 @@ animation-delay: 2s;
     border-radius: 10px;
 }
 
-.flex-even {
-    flex: 1;
-}
 
 /* Responsive */
 
