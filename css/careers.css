@@ -1,3 +1,7 @@
+html, body {
+    scroll-behavior: smooth;
+}
+
 a.signup-btn{
     background: #000;
     color: #fff;
@@ -95,10 +99,7 @@ animation-delay: 2s;
     box-shadow: none;
     border-radius: 0px;
 }
-.banner-contents a.btn:hover {
-    background-color: #FDC831;
-    color: #fff;
-}
+
 .banner-contents a.active-btn {
     background-color: #FDC831;
     color: #fff;
@@ -213,21 +214,14 @@ p.check-out{
 }
 
 .open-apply {
-    color: #FDC805;
-    border: 2px solid #FDC805;
+    color: #008fb0;
+    border: 2px solid #008fb0;
+    text-decoration: unset;
     border-radius: 10px;
     font-size: 15px;
     padding: 10px 15px;
     text-decoration: none;
     text-align: center;
-}
-
-.open-apply:hover{
-    color: #000;
-    background: #FDC805;
-    border: 2px solid #000;
-    text-decoration: none;
-    transition: 0.5s;
 }
 
 
