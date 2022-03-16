@@ -48,6 +48,10 @@ animation-delay: 2s;
 */
 }
 
+.card-img-top {
+    height: 500px;
+}
+
 @keyframes moveUp {
     from{
         top: 35%;
@@ -353,6 +357,10 @@ p.check-out{
 
     .cust-connect-img{
         width: 80%;
+    }
+
+    .card-img-top{
+        height: 210px;
     }
 }
 
