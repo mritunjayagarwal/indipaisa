@@ -23,7 +23,7 @@
 
 <body>
   <header>
-    <div class="header-top">
+    <div class="header-top" style = "position: fixed; top: 0;width: 100%;z-index: 1;">
       <div class="container">
         <div class="header-topwrap">
           <div class="row align-items-center">
@@ -186,7 +186,7 @@
                       <div class = "p-3 benefits-card" data-aos="zoom-in" data-aos-delay="900" data-aos-duration="600">
                         <img src="./img/others/benefits/3.svg" alt="">
                         <h6 class = "mt-5 mb-4">10 + Products</h6>
-                        <p>Reshape the SME industry with our game-changer banking solutions and promote a wide range of different financial products.</p>
+                        <p>Reshape the SME industry with our game-changing banking solutions and promote a wide range of different financial products.</p>
                       </div>
                     </div>
                     <div class = "col-md-6 col-lg-6 mb-4">
@@ -207,7 +207,7 @@
                   <div class="card-body">
                     <p class="card-text">
                       <h5>Become a partner today</h5>
-                      <p class = "mt-3">Your success is our success too so let's elevate your business performance, build personal wealth fast and help the Indian community.</p>
+                      <p class = "mt-3">Your success is our success too, so let's elevate your business performance, build personal wealth fast and help the Indian community.</p>
                       <a href="#" class="btn mt-5 active-btn btn-block w-100 bg-primary text-center" style = "color: #fff">Become a Partner</a>
                     </p>
                   </div>
@@ -412,6 +412,23 @@ $('.owl-carousel').owlCarousel({
     items: 1
 })
   </script>
+  <script>
+     
+    $(document).ready(function(){
+      $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 100) {
+          $(".header-top").css("background" , "#fff");
+          $(".header-top").css("transition" , ".3s");
+        }
+    
+        else{
+          $(".header-top").css("background" , "transparent");  	
+        }
+      })
+    })
+    
+    </script>
   <script>
     AOS.init({
       once:false,

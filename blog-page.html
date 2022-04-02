@@ -24,7 +24,7 @@
 
 <body>
   <header>
-    <div class="header-top">
+    <div class="header-top" style = "position: fixed; top: 0;width: 100%;z-index: 1;">
       <div class="container">
         <div class="header-topwrap">
           <div class="row align-items-center">
@@ -645,6 +645,23 @@
   <script src="https://cdn.jsdelivr.net/gh/emn178/chartjs-plugin-labels/src/chartjs-plugin-labels.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+     
+    $(document).ready(function(){
+      $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 100) {
+          $(".header-top").css("background" , "#fff");
+          $(".header-top").css("transition" , ".3s");
+        }
+    
+        else{
+          $(".header-top").css("background" , "transparent");  	
+        }
+      })
+    })
+    
+    </script>
   <script>
     AOS.init()
   </script>

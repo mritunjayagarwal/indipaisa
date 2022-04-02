@@ -25,7 +25,7 @@
   <header>
     <div class="header-section" style = "background-image: linear-gradient(180deg, rgba(0, 192, 227, 0.26), rgba(32, 191, 169, 0.16), rgba(199, 210, 240, 0));">
       <div style = "position: relative">
-        <div class="header-top">
+        <div class="header-top" style = "position: fixed; top: 0;width: 100%;z-index: 1;">
           <div class="container">
             <div class="header-topwrap">
               <div class="row align-items-center">
@@ -182,7 +182,7 @@
                     <div class = "col-md-6 col-lg-6 d-flex align-items-center justify-content-center order-md-1">
                       <div class = "more-point">
                           <h2 class = "d-none d-md-block" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">Compatible with all NFC-enabled phones</h2>
-                          <p data-aos="fade-up" data-aos-delay="400" data-aos-duration="600">Runs on all phones with NFC module and Android 8.0 OS or higher.</p>
+                          <p data-aos="fade-up" data-aos-delay="400" data-aos-duration="600">Runs on all phones with an NFC module and Android 8.0 OS or higher.</p>
                       </div>
                   </div>
                 </div>
@@ -214,7 +214,7 @@
                     <div class = "col-md-6 col-lg-6 d-flex align-items-center justify-content-center order-md-1" data-aos="fade-right">
                         <div class = "more-point">
                             <h2 class = "d-none d-md-block" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">No additional hardware required</h2>
-                            <p data-aos="fade-up" data-aos-delay="400" data-aos-duration="600">You don’t need additional hardware your personal NFC-enabled mobile handset is capable to accept payment.</p>
+                            <p data-aos="fade-up" data-aos-delay="400" data-aos-duration="600">You don’t need additional hardware. Your NFC-enabled mobile handset is capable of accepting payment.</p>
                         </div>
                     </div>
                 </div>
@@ -224,12 +224,12 @@
           <div class = "container">
               <div class = "row">
                   <div class = "col-md-6 col-lg-6" data-aos = "fade-right" data-aos-delay="600" data-aos-duration="600">
-                    <div class = "d-md-none text-center mt-5 mb-3" style = "font-size: 30px; font-weight: 700;">Low monthly costs</div>  
+                    <div class = "d-md-none text-center mt-5 mb-3" style = "font-size: 30px; font-weight: 700;">Low monthly fee</div>  
                       <img src="img/others/Soft POS/Low on monthly cost.png" class="img-fluid b-img" alt="Image"/>
                   </div>
                   <div class = "col-md-6 col-lg-6 d-flex align-items-center justify-content-center">
                       <div class = "more-point">
-                          <h2 class = "d-none d-md-block" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">Low monthly costs</h2>
+                          <h2 class = "d-none d-md-block" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">Low monthly fee</h2>
                           <p data-aos="fade-up" data-aos-delay="400" data-aos-duration="600">Sign up for a low-cost monthly subscription.</p>
                       </div>
                   </div>
@@ -416,5 +416,22 @@
       once: true
     });
   </script>
+  <script>
+     
+    $(document).ready(function(){
+      $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 100) {
+          $(".header-top").css("background" , "#fff");
+          $(".header-top").css("transition" , ".3s");
+        }
+    
+        else{
+          $(".header-top").css("background" , "transparent");  	
+        }
+      })
+    })
+    
+    </script>
 </body>
 </html>

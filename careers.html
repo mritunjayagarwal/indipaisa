@@ -27,7 +27,7 @@
   <header>
     <div class="header-section" style = "background-image: linear-gradient(180deg, rgba(23, 135, 252, 0.26), rgba(32, 191, 169, 0.16), rgba(199, 210, 240, 0));">
       <div style = "position: relative">
-        <div class="header-top">
+        <div class="header-top" style = "position: fixed; top: 0;width: 100%;z-index: 1;">
           <div class="container">
             <div class="header-topwrap">
               <div class="row align-items-center">
@@ -109,7 +109,7 @@
                 <div class="col-md-6 order-md-1">
                   <div class="banner-contents mt-5">
                     <h1 class = "" data-aos="fade-down" data-aos-delay="200" data-aos-duration="800">Careers</h1>
-                    <p class = "mb-5" data-aos = "fade-up" data-aos-delay="600" data-aos-duration="800" style = "width: 80%">If you are passionate about building long lasting solutions and do meaningful work that creates an impact. Join Us!</p>
+                    <p class = "mb-5" data-aos = "fade-up" data-aos-delay="600" data-aos-duration="800" style = "width: 80%">If you are passionate about building long-lasting solutions and doing meaningful work that creates an impact. Join Us!</p>
                     <ul class="list-unstyled d-flex mb-0">
                       <li><a href="#open" class="py-3 px-5 btn btn-primary text-white" style = "color: #000" data-aos = "fade-right" data-aos-delay="1000" data-aos-duration="400">Join Us</a></li>
                     </ul> 
@@ -216,28 +216,6 @@
                         <img src= "./img/others/Career page/4 club.png" class = "w-100 h-100" alt="" data-aos = "flip-right" data-aos-delay="600" data-aos-duration="400">
                     </div>
                 </div>
-                <!-- <div class = "d-flex">
-                  <div class = "">
-                    <div class = "row">
-                      <div class = "d-flex">
-                        <div class = "flex-even">
-                          <img src= "./img/others/Career page/1 club .png" alt="" data-aos = "fade-right" data-aos-delay="200" data-aos-duration="400">
-                        </div>
-                        <div>
-                          <img src= "./img/others/Career page/2 club.png" alt="" data-aos = "fade-down" data-aos-delay="400">
-                        </div>
-                      </div>
-                    </div>
-                    <div class = "row mt-1">
-                      <div class = "col-12 p-0">
-                       <img src= "./img/others/Career page/3 club.png" class = "w-100" alt="" data-aos = "fade-up" data-aos-delay="800" data-aos-duration="400">
-                      </div>
-                  </div> 
-                  </div>
-                  <div>
-                    <img src= "./img/others/Career page/4 club.png" alt="" data-aos = "flip-right" data-aos-delay="600" data-aos-duration="400">
-                  </div>
-                </div> -->
             </div>
   </section>
   </div>
@@ -256,25 +234,18 @@
             <div class="card" style="width: 100%;" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
               <div class = "card-top" style = "position: relative">
                   <div class = "card-top" style = "position: relative">
-                    <iframe class ="card-img-top" src="https://www.youtube.com/embed/n_Cn8eFo7u8?autoplay=1&mute=1&controls=0" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
+                    <iframe class ="card-img-top" src="https://www.youtube.com/embed/jggQ27iqoHs?autoplay=1&mute=1&controls=0" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
                 <div class = "play-btn d-flex align-items-center justify-content-center" style = "position: absolute; bottom: 15px; left: 15px;">
-                  <a href="https://www.youtube.com/embed/n_Cn8eFo7u8" target = "_blank">
+                  <a href="https://www.youtube.com/embed/jggQ27iqoHs" target = "_blank">
                     <i class = "fa fa-play-circle" style = "font-size: 40px;"></i>
                   </a>
                 </div>
               </div>
               </div>
-              <div class="card-body">
+              <!-- <div class="card-body">
                 <p class = "info-date">April 02, 2021</p>
                 <h5 class="card-title" style = "margin-bottom: 60px">Customer Success Story</h5>
-                <!-- <div class = "c-footer" style = "position: absolute; bottom: 30px;">
-                  <div class="d-flex">
-                    <div class="mr-auto"><a href="" class = "px-3 py-2 watch">View News</a></div>
-                    <div class="">
-                    </div>
-                  </div>
-                </div> -->
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -402,6 +373,23 @@
   <script type="text/javascript" src="js/custom.js"></script>
   <script src="js/glightbox/js/glightbox.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+     
+    $(document).ready(function(){
+      $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 100) {
+          $(".header-top").css("background" , "#fff");
+          $(".header-top").css("transition" , ".3s");
+        }
+    
+        else{
+          $(".header-top").css("background" , "transparent");  	
+        }
+      })
+    })
+    
+    </script>
   <script>
     AOS.init({
       once: true
