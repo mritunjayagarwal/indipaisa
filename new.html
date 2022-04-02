@@ -24,7 +24,7 @@
 
 <body>
   <header>
-    <div class="header-top">
+    <div class="header-top" style = "position: fixed; top: 0;width: 100%;z-index: 1;">
       <div class="container">
         <div class="header-topwrap">
           <div class="row align-items-center">
@@ -259,7 +259,7 @@
                 <img class="card-img-top zoom-img" src="./img/others/new/Press Release/indipaisa and NSDL.svg" alt="Card image cap">
                 <div class="card-body">
                   <p class = "info-date">January 25, 2022 23:31 IST | ANI Press Release</p>
-                  <h5 class="card-title" style = "margin-bottom: 60px">Indipaisa partners with NSDL Payments Bank to launch a new Fintech platform targeting India’s flourishing 63 million SME sector</h5>
+                  <h5 class="card-title" style = "margin-bottom: 60px;color: #191919">Indipaisa partners with NSDL Payments Bank to launch a new Fintech platform targeting India’s flourishing 63 million SME sector</h5>
                   <!-- <div class = "c-footer" style = "position: absolute; bottom: 30px;">
                     <div class="d-flex">
                       <div class="mr-auto"><a href="" class = "px-3 py-2 watch">Read Article</a></div>
@@ -277,7 +277,7 @@
                 <img class="card-img-top zoom-img" src="./img/others/new/Press Release/indipaisa and hitachi.svg" alt="Card image cap">
                 <div class="card-body">
                   <p class = "info-date">Dec 26, 2021, 01:10 PM IST | Economic Times Press Release</p>
-                  <h5 class="card-title" style = "margin-bottom: 60px">Indipaisa and Hitachi payment services introduce new fintech platform</h5>
+                  <h5 class="card-title" style = "margin-bottom: 60px; color: #191919">Indipaisa and Hitachi payment services introduce new fintech platform</h5>
                   <!-- <div class = "c-footer" style = "position: absolute; bottom: 30px;">
                     <div class="d-flex">
                       <div class="mr-auto"><a href="" class = "px-3 py-2 watch">Read Article</a></div>
@@ -548,6 +548,21 @@
   <script src="js/glightbox/js/glightbox.min.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    $(document).ready(function(){
+      $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 100) {
+          $(".header-top").css("background" , "#fff");
+          $(".header-top").css("transition" , ".3s");
+        }
+
+        else{
+          $(".header-top").css("background" , "transparent");  	
+        }
+      })
+    })
+  </script>
   <script>
     AOS.init();
   </script>
