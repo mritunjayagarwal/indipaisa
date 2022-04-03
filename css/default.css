@@ -364,7 +364,9 @@ footer {
         margin-right: 0px;
 	}
 	.mainmenu nav.navbar .navbar-nav li.nav-item {
-		padding: 3px 0px;
+        padding: 10px 20px;
+        background: #fff;
+        margin: -5px 0;
 	}
 	.mainmenu nav.navbar .navbar-nav li.nav-item a.nav-link {
 		font-size: 14px;
