@@ -1,6 +1,14 @@
 *{ 
 	font-family:'Poppins';
 }
+
+.goog-te-banner-frame.skiptranslate {
+    display: none !important;
+    } 
+body {
+    top: 0px !important; 
+    }
+
 .text-center img {
 	display: inline-block;
 }
