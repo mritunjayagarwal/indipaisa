@@ -2,7 +2,32 @@
 	font-family:'Poppins';
 }
 
-.goog-te-banner-frame.skiptranslate {
+#english:checked ~ .english{
+    display: block;
+ }
+ 
+ #english ~ .english{
+    display: none;
+ }
+ 
+ #english:checked ~ .german{
+   display: none;
+ }
+ 
+ #german ~ .german{
+   display: none;
+ }
+ 
+ #german:checked ~ .english{
+   display: none;
+ }
+ 
+ #german:checked ~ .german{
+   display: block;
+ }
+ 
+
+/* .goog-te-banner-frame.skiptranslate {
     display: none !important;
     } 
 
@@ -13,7 +38,7 @@
 .goog-te-gadget {
 color: transparent !important;
 }
-    
+     */
 body {
     top: 0px !important; 
     }

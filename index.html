@@ -72,6 +72,12 @@
                         <li class="nav-item">
                           <a class="nav-link" href="./new.html">What's Brewing</a>
                         </li>
+                        <li class="nav-item">
+                          <select id="lang">
+                            <option>English</option>
+                            <option>Hindi</option>
+                        </select>
+                        </li>
                       </ul>
                     </div>
                   </nav>
@@ -95,16 +101,16 @@
             <div class="row align-items-center">
               <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
                 <div class="banner-contents">
-                  <h1 class="animate__animated animate__fadeIn">Stay ahead of the game with Indipaisa<span>&trade;</span>
+                  <h1 class="animate__animated animate__fadeIn" data-translate="_mainHead">Stay ahead of the game with Indipaisa<span>&trade;</span>
                   </h1>
                   <div id = "google_element"></div>
-                  <p class="animate__animated animate__fadeIn">Be compliant with your preferred MSME business partner and manage all of your business finances with peace of mind.</p>
+                  <p class="animate__animated animate__fadeIn" data-translate="_mainDesc1">Be compliant with your preferred MSME business partner and manage all of your business finances with peace of mind.</p>
 
 
-                  <p class="animate__animated animate__fadeIn">Tailored financial services that enable your company to have access to scalable banking solutions, improve transparency and efficiency in your operations, and achieve your aim of market success.</p>
+                  <p class="animate__animated animate__fadeIn" data-translate="_mainDesc2">Tailored financial services that enable your company to have access to scalable banking solutions, improve transparency and efficiency in your operations, and achieve your aim of market success.</p>
 
 
-                  <p class="animate__animated animate__fadeIn">Indipaisa is part of the Nexxo Network, a multinational network of fintech and financial services companies that cater to SMEs all over the world.</p>
+                  <p class="animate__animated animate__fadeIn" data-translate="_mainDesc3">Indipaisa is part of the Nexxo Network, a multinational network of fintech and financial services companies that cater to SMEs all over the world.</p>
                   <!-- <ul class="list-unstyled d-flex mb-0">
                     <li><a href="#" class="btn active-btn">Contact Us</a></li>
                     <li><a href="#" class="btn">View Solutions</a></li>
@@ -651,12 +657,6 @@
   <script type="text/javascript" src="js/owl.carousel.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script type="text/javascript" src="js/custom.js"></script>
-  <script type="text/javascript">
-    function googleTranslateElementInit() {
-        new google.translate.TranslateElement('google_element');
-    }
-        </script>
-<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   <script>
     //     $('.count').each(function () {
     //     $(this).prop('Counter',0).animate({
@@ -696,6 +696,54 @@ $(document).ready(function(){
     AOS.init({
       once: true
     });
+
+    $(function () {
+
+      // Lets be professional, shall we?
+      "use strict";
+
+      // Some variables for later
+      var dictionary, set_lang;
+
+      // Object literal behaving as multi-dictionary
+      dictionary = {
+          "english": {
+              "_mainHead": "Stay ahead of the game with Indipaisa",
+              "_mainDesc1": "Be compliant with your preferred MSME business partner and manage all of your business finances with peace of mind.",
+              "_mainDesc2": "Tailored financial services that enable your company to have access to scalable banking solutions, improve transparency and efficiency in your operations, and achieve your aim of market success.",
+              "_mainDesc3": "Indipaisa is part of the Nexxo Network, a multinational network of fintech and financial services companies that cater to SMEs all over the world."
+            },
+          "hindi": {
+              "_mainHead": "इंडिपैसा के साथ खेल में आगे रहें",
+              "_mainDesc1": "अपने पसंदीदा एमएसएमई बिजनेस पार्टनर के अनुरूप रहें और अपने सभी बिजनेस फाइनेंस को मन की शांति के साथ प्रबंधित करें।",
+              "_mainDesc2": "अनुकूलित वित्तीय सेवाएं जो आपकी कंपनी को स्केलेबल बैंकिंग समाधानों तक पहुंच बनाने में सक्षम बनाती हैं, आपके संचालन में पारदर्शिता और दक्षता में सुधार करती हैं, और बाजार की सफलता के आपके लक्ष्य को प्राप्त करती हैं।",
+              "_mainDesc3": "इंडिपैसा नेक्सो नेटवर्क का हिस्सा है, जो फिनटेक और वित्तीय सेवा कंपनियों का एक बहुराष्ट्रीय नेटवर्क है जो दुनिया भर में एसएमई को पूरा करता है।"
+            }
+      };
+
+      // Function for swapping dictionaries
+      set_lang = function (dictionary) {
+          $("[data-translate]").text(function () {
+              var key = $(this).data("translate");
+              if (dictionary.hasOwnProperty(key)) {
+                  return dictionary[key];
+              }
+          });
+      };
+
+      // Swap languages when menu changes
+      $("#lang").on("change", function () {
+          var language = $(this).val().toLowerCase();
+          if (dictionary.hasOwnProperty(language)) {
+              set_lang(dictionary[language]);
+          }
+      });
+
+      // Set initial language to English
+      set_lang(dictionary.english);
+
+      });
+
   </script>
  </body>
 </html>
