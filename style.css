@@ -2,31 +2,6 @@
 	font-family:'Poppins';
 }
 
-#english:checked ~ .english{
-    display: block;
- }
- 
- #english ~ .english{
-    display: none;
- }
- 
- #english:checked ~ .german{
-   display: none;
- }
- 
- #german ~ .german{
-   display: none;
- }
- 
- #german:checked ~ .english{
-   display: none;
- }
- 
- #german:checked ~ .german{
-   display: block;
- }
- 
-
 /* .goog-te-banner-frame.skiptranslate {
     display: none !important;
     } 
